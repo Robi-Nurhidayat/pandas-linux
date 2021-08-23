@@ -55,8 +55,12 @@ dataku2 = pd.DataFrame(np.random.randn(3,4),['A','B','C'],['Satu','Dua','Tiga','
 
 print(dataku2, '\n\n')
 
+
 hasil = dataku2[dataku2['Satu'] > 0]
 hasil2 = dataku2['Satu'] > 0
+
+print('hasil 1')
 print(hasil, '\n\n')
 
+print('hasil 2')
 print(hasil2)

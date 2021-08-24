@@ -4,7 +4,7 @@ import numpy as np
 # membaca data kapal titanic
 
 # dataku = pd.read_csv('/data/kapal_titanic.csv')
-dataku = pd.read_csv('kapal_titanic.csv')
+dataku = pd.read_csv('./data/kapal_titanic.csv')
 
 print(dataku)
 
@@ -50,8 +50,9 @@ print(dataku3)
 # example
 
 dataku['age'] = dataku['age'].fillna(value=dataku['age'].mean())
-print(dataku['age'].values)
-
+# print(dataku['age'].values)
+print(dataku['age'])
+print(dataku)
 
 # dimachine learning tidak dikenali data pandas series oleh karena itu
 # ubah menjadi array
